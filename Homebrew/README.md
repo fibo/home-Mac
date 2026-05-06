@@ -44,6 +44,12 @@ Of course [Neovim](https://neovim.io/) is my favourite editor.
 
 	brew install neovim
 
+### pyenv
+
+Install [Simple Python version management](https://github.com/pyenv/pyenv)
+
+	brew install pyenv
+
 ### ripgrep
 
 The [ripgrep](https://github.com/burntsushi/ripgrep) CLI _recursively searches directories for a regex pattern while respecting your gitignore_.

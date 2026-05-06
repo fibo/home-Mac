@@ -117,6 +117,16 @@ Set up [fzf](../Homebrew/README.md#fzf) key bindings and fuzzy completion.
 	# https://junegunn.github.io/fzf/
 	source <(fzf --zsh)
 	
+	
+### pyenv
+
+Load [pyenv](../Homebrew/README.md#pyenv).
+
+	# https://github.com/pyenv/pyenv#zsh
+	export PYENV_ROOT="$HOME/.pyenv"
+	[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
+	eval "$(pyenv init - zsh)"
+	
 
 ### ripgrep
 

@@ -49,6 +49,12 @@ export PATH="$HOME/.shell/git_cleanBranches:$PATH"
 # https://junegunn.github.io/fzf/
 source <(fzf --zsh)
 
+
+# https://github.com/pyenv/pyenv#zsh
+export PYENV_ROOT="$HOME/.pyenv"
+[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init - zsh)"
+
 # https://github.com/BurntSushi/ripgrep
 export RIPGREP_CONFIG_PATH=$HOME/.ripgreprc
 
